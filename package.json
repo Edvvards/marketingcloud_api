@@ -1,0 +1,30 @@
+{
+  "name": "jwplayer_integration_v2",
+  "version": "0.2.0",
+  "description": "Heroku Salesforce Marketing Cloud Integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "-r esm node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.1",
+    "circular-json": "^0.5.4",
+    "dotenv": "^5.0.1",
+    "esm": "^3.2.25",
+    "express": "^4.13.3",
+    "node-cron": "^2.0.3"
+  },
+  "engines": {
+    "node": "10.15.3"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express",
+    "Salesforce",
+    "MarketingCloud",
+    "Heroku"
+  ],
+  "author": "Liam Edwards",
+  "license": ""
+}
